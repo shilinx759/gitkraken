@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Cell/Cell.iml" filepath="$PROJECT_DIR$/Cell/Cell.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Field/Field.iml" filepath="$PROJECT_DIR$/Field/Field.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cellMachine/cellMachine.iml" filepath="$PROJECT_DIR$/cellMachine/cellMachine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cells.iml" filepath="$PROJECT_DIR$/cells.iml" />
+    </modules>
+  </component>
+</project>
