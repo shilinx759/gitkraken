@@ -1,8 +1,14 @@
 package Class2;
 
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.TreeMap;
+
 
 public class HashMapAndSortedMap {
+    //在使用来增删改查，都是O（1）！！！
+    private static final String TreeMap = null;
+
     public static void main(String[] args) {
         //      key,    value
         HashMap<Integer,String> map=new HashMap<>();
@@ -21,6 +27,32 @@ public class HashMapAndSortedMap {
         System.out.println(map.get(4));
         map.remove(4);//删除
         System.out.println(map.get(4));
+
+
+        //       key
+        HashSet<String> set=new HashSet<>();
+        set.add("woshi 1");
+        set.contains("woshi 1");//返回true/false
+        set.remove("woshi 1");
+
+        System.out.println("========================");
+
+      TreeMap<Integer,String> treeMap=new TreeMap<>();
+      treeMap.put(1,"yi");
+      treeMap.put(2,"er");
+      treeMap.put(3,"san");
+      treeMap.put(4,"si");
+    
+      System.out.println(treeMap.firstKey());//输出排第一的值
+
+      System.out.println(treeMap.lastKey());
+
+      //<=4
+      System.out.println(treeMap.floorKey(4));
+      //>=4
+      System.out.println(treeMap.ceilingKey(4));
+    
+
 
     }
     
