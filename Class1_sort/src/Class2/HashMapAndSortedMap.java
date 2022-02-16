@@ -8,6 +8,13 @@ import java.util.TreeMap;
 public class HashMapAndSortedMap {
     //在使用来增删改查，都是O（1）！！！
     private static final String TreeMap = null;
+    //非基础类型
+    private static class Node{
+        public int value;
+        public Node(int v){
+            value=v;
+        } 
+    }
 
     public static void main(String[] args) {
         //      key,    value
@@ -47,9 +54,9 @@ public class HashMapAndSortedMap {
 
       System.out.println(treeMap.lastKey());
 
-      //<=4
+      //<=4离4最近的数
       System.out.println(treeMap.floorKey(4));
-      //>=4
+      //>=4离4最近的数
       System.out.println(treeMap.ceilingKey(4));
     
 
