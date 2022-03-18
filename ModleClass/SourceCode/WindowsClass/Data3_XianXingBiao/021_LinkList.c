@@ -17,7 +17,7 @@ typedef int Status;/* Status是函数的类型,其值是函数结果状态代码
 typedef int ElemType;/* ElemType类型根据实际情况而定，这里假设为int */
 
 
-Status visit(ElemType c)
+Status visit(ElemType c)//输出表中元素
 {
     printf("%d ",c);
     return OK;
@@ -215,7 +215,7 @@ int main()
     ElemType e;
     Status i;
     int j,k;
-    i=InitList(&L);
+    i=InitList(&L);//函数需要指针作为参数，调用的时候 传地址
     printf("初始化L后：ListLength(L)=%d\n",ListLength(L));
     for(j=1;j<=5;j++)
             i=ListInsert(&L,1,j);
