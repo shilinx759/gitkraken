@@ -1,16 +1,11 @@
-/*
-顺序表 删除重复
-编写算法，在一非递减的顺序表L中，删除所有值相等的多余元素。要求时间复杂度为O(n)，空间复杂度为O(1)。
-*/
- 
- 
 #include <stdio.h>
 #include <stdlib.h>
-
- 
 #define ElemType int
 #define MAXSIZE 20
- 
+// /*
+// 顺序表 删除重复
+// 编写算法，在一非递减的顺序表L中，删除所有值相等的多余元素。要求时间复杂度为O(n)，空间复杂度为O(1)。
+// */
 struct Seqlist {
     ElemType elem[MAXSIZE];
     int last;
