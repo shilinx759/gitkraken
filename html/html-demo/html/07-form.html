@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="username">用户名：</label>
+        <input type="text" name="username" id="username"><br>
+        <label for="password">密码：</label>
+        <input type="password" name="password" id="password"><br>
+
+
+        性别：<!--互斥效果，要加上共同的name
+        加一个value后，在服务端可以区分选的是什么-->
+        <input type="radio" name="gender" value="1" id="male"><label for="male">男</label>
+        <input type="radio" name="gender" value="2" id="female"><label for="female">女</label><br>
+        爱好:
+        <input type="checkbox" name="hobby" value="1">旅游
+        <input type="checkbox" name="hobby" value="2">电影
+        <input type="checkbox" name="hobby" value="3">书<br>
+        头像：
+        <input type="file" name="picture" id="123"><br>
+        城市：<!--如果不想交中文，就用value传值-->
+        <select name="city">
+            <option>北京</option>
+            <option value="shanghai ">上海</option>
+            <option>广州</option>
+
+        </select><br>
+        个人描述：
+        <textarea name="disstrusion" rows="5" cols="15"></textarea>
+        <br>
+        <br>
+
+        <input type="reset">
+        <input type="button" value="haha">
+
+        <input type="submit" value=注册>
+    </form>
+</body>
+</html>
