@@ -15,13 +15,16 @@ public class Main {
             System.out.println("####################");
         }
         else if(ch=='B'){
+            System.out.println("请输入数字：");
+
             n=reader.nextInt();
 
 
             for(int i =0;i<n;i++) {
                 int number = 1;
                 //打印空格字符串
-                System.out.format("%"+(n-i)*2+"s","");
+                System.out.format("%"+(n-i)*2+"s","");//I=0,format(%6s," ")
+                //打印六个空格
                 for(int j=0;j<=i;j++) {
                     System.out.format("%4d",number);
                     number = number * (i - j) / (j + 1);

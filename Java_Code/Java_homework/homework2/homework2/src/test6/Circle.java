@@ -6,6 +6,6 @@ public class Circle extends Geometry {
         this.r=r;
     }
     public double getArea(){
-        return 3.14*r;
+        return 3.14*r*r;
     }
 }

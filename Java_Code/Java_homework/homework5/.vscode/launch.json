@@ -1,0 +1,49 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch TwoThreadGussNumber",
+            "request": "launch",
+            "mainClass": "GuessNumber.TwoThreadGussNumber",
+            "projectName": "homework5_18a54b40"
+        },
+        {
+            "type": "java",
+            "name": "Launch TypeChinese",
+            "request": "launch",
+            "mainClass": "Charactor.TypeChinese",
+            "projectName": "homework5_18a54b40"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch OutputWordMess",
+            "request": "launch",
+            "mainClass": "EnglishWord.OutputWordMess",
+            "projectName": "homework5_18a54b40"
+        },
+        {
+            "type": "java",
+            "name": "Launch AnalysisResult",
+            "request": "launch",
+            "mainClass": "test1.AnalysisResult",
+            "projectName": "homework5_18a54b40"
+        },
+        {
+            "type": "java",
+            "name": "Launch PassWord",
+            "request": "launch",
+            "mainClass": "test2.PassWord",
+            "projectName": "homework5_18a54b40"
+        }
+    ]
+}
